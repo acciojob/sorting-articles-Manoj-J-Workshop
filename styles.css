@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/16672664/pexels-photo-16672664.jpeg?_gl=1*1eppdkq*_ga*NDgxMzEyNDc2LjE3NTkwNzAzNDY.*_ga_8JE65Q40S6*czE3NTkwNzAzNDUkbzEkZzEkdDE3NTkwNzE0MTgkajQ0JGwwJGgw");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.glass-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 40px;
+  max-width: 500px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inner-white-box {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+
+.inner-white-box ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0;
+}
+
+
+.inner-white-box li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.inner-white-box li:last-child {
+  border-bottom: none;
+}
